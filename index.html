@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--opening header tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint's first website</title> <!--title tag-->
+    <link rel="stylesheet" href="style.css"> <!--linking css to html-->
+</head>
+
+<body> <!--body tag -->
+    <img src="imgbat.png" alt="img not found"> <!--img tag src is source and is alternate msg-->
+    <div>
+        <table> <!--table tag for table creation-->
+            <caption>PERSON DETAILS</caption>
+            <br>
+
+            <head>
+                <tr> <!--table row tag-->
+                    <th>Name</th> <!--table heading tag-->
+                    <th>Designation</th>
+                    <th>city</th>
+                </tr>
+            </head>
+
+            <tr>
+
+                <body>
+                    <td>Batman</td> <!--table data tag-->
+                    <td>Knight</td>
+                    <td rowspan="2">Gotham</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">joker</td>
+            </tr>
+</body>
+</table>
+</div>
+<div>
+    <ul> <!--tag for unordered lists-->
+        <li>Batman</li>
+        <li>Alfred</li>
+        <li>robin</li>
+    </ul>
+    <ul type="square"> <!--can change the order by type like square,circle,disc-->
+        <li>Batman</li>
+        <li>Alfred</li>
+        <li>robin</li>
+    </ul>
+    <ol> <!--tag for ordered lists-->
+        <li>Batman</li>
+        <li>Alfred</li>
+        <li>robin</li>
+    </ol>
+    <ol type="A"> <!--we can define the order by giving type A,a,1,(i,I- for roman)-->
+        <li>Batman</li>
+        <li>Alfred</li>
+        <li>robin</li>
+    </ol>
+</div>
+<div>
+    <h1>FORMS</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terms and condions" name="T and D" value="yes" required>
+            <label for="terms and condions">terms and conditions</label>
+        </div>
+        <div>
+            <label for="textarea">Comment Here</label>
+            <div>
+                <textarea name="comment" rows="4" cols="50">comment</textarea>
+            </div>
+        </div>
+        <div>
+            <select name="characters">
+                <label for="characters">characters</label>
+                <option value="Batman">Batman</option>
+                <option value="Joker">Joker</option>
+                <option value="WonderWoman">WonderWoman</option>
+            </select>
+        </div>
+    </form>
+</div>
+<div>
+    <h1>
+        Inline and Block Elements <!--inline takes required length-->
+    </h1> <!--block elements takes the whole line space-->
+    <p>Men are Brave</p> <!--paragraph is block element-->
+    <a href="https://www.google.com">google</a> <!--anchor tag is a inline element-->
+    <div>I am div and Block element</div>
+    <span>I am span and inline</span>
+</div>
+<div>
+    <h1>Id and Classes</h1> <!--id is for unique identification and cannot be duplicated-->
+    <div id="firstdiv" class="red">first</div> <!--A single cls can repeat multiple times and classes can be multiple-->
+    <div id="seconddiv" class="red bg-yellow">second</div> <!--multiple classes example-->
+    <span class="red"></span>
+</div>
+<div>
+    <h1>VIDEOS</h1>
+    <video src="task 4.mp4" height="255" controls loop muted></video>
+
+    <audio src="Nirvana_-_Something_In_The_Way.mp3" controls autoplay loop></audio>
+
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    
+
+    <iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="322" height="444"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=yBjEwyiGdKR4p9UJ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</div>
+<script src="script.js"></script> <!--linking js to html-->
+
+</body>
+
+</html>

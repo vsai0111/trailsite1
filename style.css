@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(9, 1, 1);
+    color: white;
+}
+th{
+    border: 2px solid rgb(227, 209, 209);
+}
+td{
+    border: 2px solid rgb(227, 209, 209);
+}
+p{
+    background-color: rgb(16, 16, 123);
+}
+a{
+    background-color: aliceblue;
+}
+.red{
+    color:rgb(143, 159, 174)
+}
+.bg-yellow{
+    background-color: yellow;
+}
